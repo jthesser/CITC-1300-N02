@@ -70,6 +70,7 @@ nav li a:hover {
 }
 /* Mobile Nav Bottom of page navigation */
 nav2 {
+    background-color: #854158;
     padding: 1px;
 }
 /* Mobile Nav UL */
@@ -111,7 +112,7 @@ header h1 {
 /* Mobile Nav headers H2 only */
 h2 {
     font-size: 30px;
-    color: #301d1d;
+    color: #854158;
 }
 /* Mobile Nav headers H3 only */
 h3 {
@@ -157,7 +158,6 @@ footer {
     border-radius: 20px;
     font-weight: bold;
     font-size: larger;
-}
 /* Mobile Nav ul */
 ul {
     text-align: left;
@@ -203,27 +203,6 @@ margin: 10px 0;
 /* MEDIA Desktop PCs CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
 
 @media (min-width: 1024px) {
-
-    nav {
-        text-align: center;
-        display:block;
-        background-color: #0d6102
-    }
-    /*  Desktop Nav Lists */
-    nav li {
-        display: inline-block;
-    }
-    /*  Desktop lower columns - 3 column layout */
-    #lower {
-        width: 99%;
-        display: flex;
-    }
-    /*  Desktop H3 a different size */
-    h3 {
-        font-size: 16px;
-        font-style: italic;
-    }
-        /* Desktop lower three columns */
     #lower {
         width: 90%
         display: flex;
@@ -283,10 +262,4 @@ margin-right: auto;
 main {
     padding: 20px;
     margin: 5px 0;
-}
-h2 {
-    color: red;
-}
-h3 {
-    font-size: x-large;
 }
