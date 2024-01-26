@@ -127,6 +127,9 @@ main {
     padding: 10px;
     margin: 10px 0;
 }
+main img {
+    border: 10px solid #F29E6D;
+}
 /* Mobile Nav lower */
 #lower {
     padding: 10px;
@@ -290,3 +293,13 @@ h2 {
 h3 {
     font-size: x-large;
 }
+p {
+    font-size: 24px;
+}
+main img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 60%;
+    border: #F29E6D 6px solid;
+    }
