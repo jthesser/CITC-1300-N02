@@ -66,36 +66,6 @@ nav li a:hover {
     color: #ff0000;
     background-color: #ffee00;
 }
-/* Mobile Nav Bottom of page navigation */
-nav2 {
-    padding: 1px;
-}
-/* Mobile Nav UL */
-nav2 ul {
-    list-style: none;
-    padding: 0;
-}
-/* Mobile Nav LIST */
-nav2 li {
-    display:block;
-}
-/* Mobile Nav LIST Hyperlinks */
-nav2 li a {
-    display: block;
-    height: 40px;
-    line-height: 40px;
-    color: #0d6102;
-    background-color: #F29E6D;
-    text-align: center;
-    margin: 5px 0;
-    font-size: 20px;
-    text-decoration: none;
-}
-/* Mobile Nav LIST Hyperlink Hover color */
-nav2 li a:hover {
-    color: #ff0000;
-    background-color: #ffee00;
-}
 /* Mobile Nav headers H1 H2 H3 */
 h1, h2, h3 {
     text-align: center;
@@ -175,7 +145,7 @@ margin: 10px 0;
 
 
 
-/* MEDIA Tablet CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
+/* MEDIA Tablet Size CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
 @media (min-width: 786px) {
     body {
         background-color: #ffa200;
@@ -199,16 +169,6 @@ margin: 10px 0;
     }
      /* Tablet */
     nav li a:hover {
-        color:#000;
-        background-color: #F2CA99;
-    }
-    /* Tablet */
-    nav2 li a {
-        background-color: #732C03;
-        color: white;
-    }
-    /* Tablet */
-    nav2 li a:hover {
         color:#000;
         background-color: #F2CA99;
     }
@@ -237,21 +197,6 @@ margin: 10px 0;
         text-align: center;
         padding: 5px;
     }
-    /* Tablet Nav headers H1 only */
-    header h1 {
-        font-size: 35px;
-        color:#000000;
-    }
-    /* Tablet Nav headers H2 only */
-    h2 {
-        font-size: 30px;
-        color: #732C03;
-    }
-    /* Tablet Nav headers H3 only */
-    h3 {
-        font-size: 25px;
-        color: #000;
-    }
     /* Tablet  Hyperlinks */
     a {
     color:#ffffff;
@@ -267,7 +212,7 @@ margin: 10px 0;
     /* Tablet  Nav headers H2 only */
     h2 {
     font-size: 30px;
-    color:#F2CA99;
+    color:#000000;
     }
     /* Tablet t Nav headers H3 only */
     h3 {
@@ -301,7 +246,13 @@ margin: 10px 0;
         .button:hover {
         color: #f26d6d;
         background-color: #ffee00;
-    }
+        }
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            }
+
+    
 
 
 
