@@ -194,8 +194,8 @@ margin: 10px 0;
     /* Tablet Nav List hyperlinks */
     nav li a {
         width: 200px;
-        background-color: #732C03
-        color: F2CA99;
+        background-color: #732C03;
+        color: #F2CA99;
     }
      /* Tablet */
     nav li a:hover {
@@ -224,6 +224,14 @@ margin: 10px 0;
     #container {
         background-color:#BF7330;
     }
+    .col {
+            padding: 10px 10px;
+            margin: 10px 10px;
+            border: 2px solid #000000;
+            width: 33.33%;
+            border-radius: 30px;  
+        }
+    }
     /* Tablet Nav headers H1 H2 H3 */
     h1, h2, h3 {
         text-align: center;
@@ -251,35 +259,60 @@ margin: 10px 0;
     a:hover {
         color:#F2CA99;
     }
-    .button {
-        color: #    /* Desktop  Nav headers H1 only */
-        header h1 {
-            font-size: 35px;
-            color:#732C03;
-        }
-        /* Desktop  Nav headers H2 only */
-        h2 {
-        font-size: 30px;
-        color:#F2CA99;
-        }
-        /* Desktop t Nav headers H3 only */
-        h3 {
-        font-size: 25px;
-        color:#261308;
-        };
+    /* Tablet  Nav headers H1 only */
+    header h1 {
+        font-size: 35px;
+        color:#732C03;
     }
-        /* Desktop PC */
-        main img {
-            display: block;
-            margin: 0 auto;
-            width: 50%;
-            height: 50%;
-            border: #F29E6D 6px solid;
-            }
-}
+    /* Tablet  Nav headers H2 only */
+    h2 {
+    font-size: 30px;
+    color:#F2CA99;
+    }
+    /* Tablet t Nav headers H3 only */
+    h3 {
+    font-size: 25px;
+    color:#261308;
+    }
+    /* Tablet */
+    main img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+        border: #F29E6D 6px solid;
+        }
+    /* Tablet Settings */
+    .button {
+        display:block;
+        background-color: #F29E6D;
+        padding: 10px;
+        width: 140px;
+        height: 60px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        line-height: 17px;
+        margin: 10px auto;
+        border-radius: 10px;
+        margin: auto;
+        }
+        /* Tablet Settings */
+        .button:hover {
+        color: #f26d6d;
+        background-color: #ffee00;
+    }
+
+
+
+
 
 /* MEDIA Desktop PCs CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
 @media (min-width: 1024px) {
+
+    body {
+        background-color: #4e3913;
+    }
     nav {
         display: block;
         background-color: #732C03;
@@ -324,7 +357,7 @@ margin: 10px 0;
     }
     .container {
         display: flex;
-        background-color:#000;
+        background-color: #BF7330;
     }
     /* Desktop  Hyperlinks */
     a {
@@ -357,7 +390,8 @@ margin: 10px 0;
     border: 2px solid black;
     margin: 12px;
     padding: 5px 10px;
-    border-radius: 30px;
+    border-radius: 60px;
+    width: 33.33%;
     }
     /* Desktop PC Settings */
     .col img {
