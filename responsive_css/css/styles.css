@@ -58,7 +58,7 @@ nav li a {
     background-color: #F29E6D;
     text-align: center;
     margin: 5px 0;
-    font-size 20px;
+    font-size: 20px;
     text-decoration: none;
 }
 /* Mobile Nav LIST Hyperlink Hover color */
@@ -88,7 +88,7 @@ nav2 li a {
     background-color: #F29E6D;
     text-align: center;
     margin: 5px 0;
-    font-size 20px;
+    font-size: 20px;
     text-decoration: none;
 }
 /* Mobile Nav LIST Hyperlink Hover color */
@@ -184,7 +184,7 @@ margin: 10px 0;
     nav {
         text-align: center;
         display:block;
-        background-color: ##ffa200
+        background-color: #ffa200;
     }
     /* Tablet Nav Lists */
     nav li {
@@ -271,7 +271,7 @@ margin: 10px 0;
         background-color: #F2CA99;
         text-align: center;
         margin: 5px 0;
-        font-size 20px;
+        font-size: 20px;
         text-decoration: none;
     }
     /* Desktop Nav LIST Hyperlink Hover color */
@@ -295,7 +295,7 @@ margin: 10px 0;
     }
     /* Desktop lower three columns */
     #lower {
-        width: 90%
+        width: 90%;
         display: flex;
     }
     /* Desktop  Hyperlinks */
@@ -338,7 +338,7 @@ h3 {
     padding: 2px;
     border: 3px solid  #F2856D;
     border-color: #F29E6D;
-    width: 99%
+    width: 99%;
     margin: 10px;
 }
 /* Desktop PC Settings */
@@ -392,3 +392,4 @@ main img {
     height: 60%;
     border: #F29E6D 6px solid;
     }
+}
