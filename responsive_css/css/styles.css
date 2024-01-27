@@ -311,7 +311,7 @@ margin: 10px 0;
 @media (min-width: 1024px) {
 
     body {
-        background-color: #4e3913;
+        background-color: #000000;
     }
     nav {
         display: block;
@@ -357,7 +357,7 @@ margin: 10px 0;
     }
     .container {
         display: flex;
-        background-color: #BF7330;
+        background-color: #000;
     }
     /* Desktop  Hyperlinks */
     a {
