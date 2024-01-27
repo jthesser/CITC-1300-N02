@@ -9,7 +9,6 @@ img {
 body {
     background-color: #F29E6D;
 }
-
 /* Global Container */
 #container {
     padding: 5px;
@@ -179,18 +178,38 @@ margin: 10px 0;
 
 /* MEDIA Tablet CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
 @media (min-width: 786px) {
+    body {
+        background-color: #ffa200;
+    }
+        /* Tablet Settings */
     nav {
         text-align: center;
         display:block;
-        background-color: #0d6102
+        background-color: ##ffa200
     }
     /* Tablet Nav Lists */
     nav li {
         display: inline-block;
+        color: #0d6102;
     }
     /* Tablet Nav List hyperlinks */
     nav li a {
         width: 200px;
+    }
+     /* Tablet */
+    nav li a:hover {
+        color:#000;
+        background-color: #999df2;
+    }
+    /* Tablet */
+    nav2 li a {
+        background-color: #732C03;
+        color: white;
+    }
+    /* Tablet */
+    nav2 li a:hover {
+        color:#000;
+        background-color: #F2CA99;
     }
     /* Tablet lower columns - 3 column layout */
     #lower {
@@ -201,36 +220,111 @@ margin: 10px 0;
     h3 {
         font-size: 16px;
     }
-
+    #container {
+        background-color:#BF7330;
+    }
+    /* Tablet Nav headers H1 H2 H3 */
+    h1, h2, h3 {
+        text-align: center;
+        padding: 5px;
+    }
+    /* Tablet Nav headers H1 only */
+    header h1 {
+        font-size: 35px;
+        color:#005c6c;
+    }
+    /* Tablet Nav headers H2 only */
+    h2 {
+        font-size: 30px;
+        color: #732C03;
+    }
+    /* Tablet Nav headers H3 only */
+    h3 {
+        font-size: 25px;
+        color:#F29E6D;
+    }
+    /* Tablet  Hyperlinks */
+    a {
+    color:#ffffff;
+    }
+    a:hover {
+        color:#F2CA99;
+    }
+    
 
 /* MEDIA Desktop PCs CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
-
 @media (min-width: 1024px) {
-
     nav {
-        text-align: center;
         display:block;
-        background-color: #0d6102
+        background-color: #732C03
     }
     /*  Desktop Nav Lists */
     nav li {
         display: inline-block;
+        padding: 2px;
+    }
+    /* Desktop Nav LIST Hyperlinks */
+    nav li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        color: #0d6102;
+        background-color: #F2CA99;
+        text-align: center;
+        margin: 5px 0;
+        font-size 20px;
+        text-decoration: none;
+    }
+    /* Desktop Nav LIST Hyperlink Hover color */
+    nav li a:hover {
+        color: #ff0000;
+        background-color: #ffee00;
+}
+    /* Desktop PC Bottom navigation hyperlink color and box color */
+    nav2 li a {
+        background-color: #732C03;
+        color: white;
+    }
+    /* Desktop PC Bottom Navigation hyperlink hover color */
+    nav2 li a:hover {
+        color: #ff0000;
+        background-color: #ffee00;
     }
     /*  Desktop lower columns - 3 column layout */
     #lower {
-        width: 99%;
         display: flex;
     }
-    /*  Desktop H3 a different size */
-    h3 {
-        font-size: 16px;
-        font-style: italic;
-    }
-        /* Desktop lower three columns */
+    /* Desktop lower three columns */
     #lower {
         width: 90%
         display: flex;
     }
+    /* Desktop  Hyperlinks */
+    a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size:large;
+    }
+    /* Desktop  Nav headers H1 H2 H3 */
+    h1, h2, h3 {
+        text-align: center;
+        padding: 5px;
+    }
+/* Desktop  Nav headers H1 only */
+    header h1 {
+        font-size: 35px;
+        color:#732C03;
+    }
+/* Desktop  Nav headers H2 only */
+h2 {
+    font-size: 30px;
+    color:#F2CA99;
+}
+/* Desktop t Nav headers H3 only */
+h3 {
+    font-size: 25px;
+    color:#261308;
+}
 }
 /* Desktop PC Settings */
 .col {
@@ -287,15 +381,11 @@ main {
     padding: 20px;
     margin: 5px 0;
 }
-h2 {
-    color: red;
-}
-h3 {
-    font-size: x-large;
-}
+/* Desktop PC */
 p {
     font-size: 24px;
 }
+/* Desktop PC */
 main img {
     display: block;
     margin: 0 auto;
