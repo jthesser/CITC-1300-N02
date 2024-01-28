@@ -1,0 +1,138 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    border: #F29E6D 4px solid;
+    }
+/* Global Body */
+body {
+    background-color: #000000d3;
+}
+
+/* Global Container */
+#container {
+    display: flex;
+    padding: 10px;
+    background-color:#000000;
+}
+
+#column1 {
+    flex: 1;
+    color:#ff0000;
+    background-color: #0d6102;
+    padding: 10px;
+    border: 1px solid #a76565;
+    width: 33.33%;
+    border: 1px solid #000000;
+
+}
+#column2 {
+    flex: 1;
+    color:#a86d6d;
+    background-color: #3f613a;
+    padding: 10px;
+    border: 1px solid #a76565;
+    width: 33.33%;
+    border: 1px solid #000000;
+
+}
+#column3 {
+    flex: 1;
+    color:#b31717;
+    background-color: #0d6102;
+    padding: 10px;
+    border: 1px solid #a76565;
+    width: 33.33%;
+    border: 1px solid #000000;
+
+}
+#top {
+    flex: 1;
+    color:#eeff00;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+
+
+}
+#welcome {
+    flex: 1;
+    color:#000000;
+    background-color: #9e6a6a;
+    padding: 10px;
+    border: 1px solid #000000;
+
+
+}
+
+/* Global  Headings H1 H2 H3 */
+h1,h2,h3 {
+    text-align: center;
+}
+p {
+    color:#ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+/* Global  Hyperlinks */
+a {
+    color:#0d6102;
+    padding: 2px;
+    text-align: left;
+}
+/* Global  Hyperlink colors */
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+h1 {
+    color:#000000;
+}
+h2 {
+    color:#ffffff;
+}
+h3 {
+    color:#ffffff;
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Mobile Styles */
+
+nav {
+    display: flex;
+    margin: 20% 1;
+}
+/* Mobile Nav UL */
+nav ul {
+    list-style: none;
+    padding: 1;
+    margin: auto;
+}
+/* Mobile Nav LIST */
+nav li {
+    display: inline-block;
+}
+/* Mobile Nav LIST Hyperlinks */
+nav li a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+/* Mobile Nav LIST Hyperlink Hover color */
+nav li a:hover {
+    color: #ff0000;
+    background-color: #ffee00;
+}
