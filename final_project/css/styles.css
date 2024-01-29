@@ -6,13 +6,10 @@ img {
     border: #F29E6D 4px solid;
     }
 /* Global Body */
-body {
-    background-image:url(images/catoosa2019.jpg)
-}
 /* Global INTRO VIDEO - OCEAN2160.mp4 */
 video {
     width: 100%;
-    height: auto;
+    height: 100px;
     object-fit: cover;
 }
 /* Global Container */
@@ -80,11 +77,20 @@ main img {
     margin: auto;
     width: 40%;
     height: auto;
+    border-radius: 40px;
 }
-
 /* Global  Headings H1 H2 H3 */
 h1,h2,h3 {
     text-align: center;
+}
+h1 {
+    color:#ffffff;
+}
+h2 {
+    color:#ffffff;
+}
+h3 {
+    color:#ffffff;
 }
 p {
     color:#ffffff;
@@ -101,15 +107,6 @@ a {
 a:hover {
     color: red;
     text-decoration: none;
-}
-h1 {
-    color:#ffffff;
-}
-h2 {
-    color:#ffffff;
-}
-h3 {
-    color:#ffffff;
 }
 footer {
     padding: 40px 0;
