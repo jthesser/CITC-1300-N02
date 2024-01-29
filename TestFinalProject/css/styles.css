@@ -7,45 +7,50 @@ img {
     }
 /* Global Body */
 body {
-    background-color: #000000d3;
+    background-image:url(images/catoosa2019.jpg)
 }
-
 /* Global Container */
 #container {
     display: flex;
     padding: 10px;
-    background-color:#000000;
+    background-color:#ff0000;
 }
-
+#lower {
+    padding: 10px;
+    width: 98%;
+}
 #column1 {
     flex: 1;
     color:#ff0000;
     background-color: #0d6102;
-    padding: 10px;
     border: 1px solid #a76565;
     width: 33.33%;
-    border: 1px solid #000000;
-
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: center;
 }
 #column2 {
     flex: 1;
-    color:#a86d6d;
+    color:#ffffff;
     background-color: #3f613a;
     padding: 10px;
     border: 1px solid #a76565;
     width: 33.33%;
-    border: 1px solid #000000;
-
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
 }
 #column3 {
     flex: 1;
-    color:#b31717;
+    color:#b31791;
     background-color: #0d6102;
     padding: 10px;
     border: 1px solid #a76565;
     width: 33.33%;
-    border: 1px solid #000000;
-
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
 }
 #top {
     flex: 1;
@@ -53,17 +58,16 @@ body {
     background-color: #ffffff;
     padding: 10px;
     border: 1px solid #000000;
-
-
+    text-align: center;
 }
 #welcome {
     flex: 1;
-    color:#000000;
+    color:#ff0000;
     background-color: #9e6a6a;
     padding: 10px;
     border: 1px solid #000000;
-
-
+    text-align: center;
+    background-image: url(images/gables.png);
 }
 
 /* Global  Headings H1 H2 H3 */
@@ -79,7 +83,7 @@ p {
 a {
     color:#0d6102;
     padding: 2px;
-    text-align: left;
+    text-align: center;
 }
 /* Global  Hyperlink colors */
 a:hover {
@@ -87,7 +91,7 @@ a:hover {
     text-decoration: none;
 }
 h1 {
-    color:#000000;
+    color:#ffffff;
 }
 h2 {
     color:#ffffff;
@@ -136,3 +140,95 @@ nav li a:hover {
     color: #ff0000;
     background-color: #ffee00;
 }
+.button {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    background-color: rgb(234, 132, 38);
+    width: 125px;
+    height: 60px;
+    line-height: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+hr {
+    width: 100%;
+    height: 2px;
+}
+
+
+
+/* MEDIA Desktop PCs CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
+@media (min-width: 1024px) {
+    
+    body {
+        background-color: #000000;
+    }
+/* Desktop lower three columns */
+   #lower {
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    }
+    .container {
+    display: flex;
+    background-color: #000;
+    }
+    #column1 {
+        flex: 1;
+        color:#ff0000;
+        background-color: #0d6102;
+        border: 1px solid #a76565;
+        width: 33.33%;
+        margin: 10px;
+        padding: 10px 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #column2 {
+        flex: 1;
+        color:#ffffff;
+        background-color: #3f613a;
+        padding: 10px;
+        border: 1px solid #a76565;
+        width: 33.33%;
+        margin: 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #column3 {
+        flex: 1;
+        color:#b31791;
+        background-color: #0d6102;
+        padding: 10px;
+        border: 1px solid #a76565;
+        width: 33.33%;
+        margin: 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .column1 {
+    display: flex;
+    background-color: #00f7ff;
+    width: 99%;
+    }
+    .column2 {
+    display: flex;
+    background-color: #00ff40;
+    width: 99%;
+    }
+    .column3 {
+    display: flex;
+    background-color: #ffa600;
+    width: 99%;
+    }
+    .lower {
+        display: flex;
+        background-color: #ff00ea;
+        }
+    .top {
+        background-color: #62a578;
+    }
