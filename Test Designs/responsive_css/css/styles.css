@@ -1,0 +1,413 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    border: #F29E6D 4px solid;
+    }
+/* Global Body */
+body {
+    background-color: #F29E6D;
+}
+/* Global Container */
+#container {
+    padding: 5px;
+    background-color:#facada;
+}
+/* Global  Headings H1 H2 H3 */
+h1,h2,h3 {
+    text-align: center;
+}
+/* Global  Hyperlinks */
+a {
+    color:#0d6102;
+    padding: 2px;
+    text-align: left;
+}
+/* Global  Hyperlink colors */
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+/* Mobile Styles - Default Styles */
+nav {
+    background-color: #854158;
+    padding: 1px;
+}
+/* Mobile Nav UL */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+/* Mobile Nav LIST */
+nav li {
+    display:block;
+}
+/* Mobile Nav LIST Hyperlinks */
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #0d6102;
+    background-color: #F29E6D;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* Mobile Nav LIST Hyperlink Hover color */
+nav li a:hover {
+    color: #ff0000;
+    background-color: #ffee00;
+}
+/* Mobile Nav headers H1 H2 H3 */
+h1, h2, h3 {
+    text-align: center;
+    padding: 10px;
+}
+/* Mobile Nav headers H1 only */
+header h1 {
+    font-size: 35px;
+    color:#854158;
+}
+/* Mobile Nav headers H2 only */
+h2 {
+    font-size: 30px;
+    color: #301d1d;
+}
+/* Mobile Nav headers H3 only */
+h3 {
+    font-size: 25px;
+    color:#854158;
+}
+/* Mobile Nav headers paragraph */
+p {
+    text-align: center;
+}
+/* Mobile Nav main */
+main {
+    padding: 10px;
+    margin: 10px 0;
+}
+main img {
+    border: 10px solid #F29E6D;
+}
+/* Mobile Nav lower */
+#lower {
+    padding: 10px;
+}
+/* Mobile Nav calling the columns */
+.col {
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 90px;
+}
+/* Mobile Nav footer */
+footer {
+    padding: 20px 0;
+    text-align: left;
+}
+/* Mobile Nav button */
+.button {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    background-color: rgb(234, 132, 38);
+    width: 125px;
+    height: 60px;
+    line-height: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+/* Mobile Nav ul */
+ul {
+    text-align: left;
+}
+/* Mobile Nav horizontal rule */
+hr {
+    width: 100%;
+    height: 2px;
+}
+/* Mobile Nav Lists */
+li {
+margin: 10px 0;
+}
+
+
+
+/* MEDIA Tablet Size CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
+@media (min-width: 786px) {
+    body {
+        background-color: #ffa200;
+    }
+        /* Tablet Settings nav*/
+    nav {
+        text-align: center;
+        display:block;
+        background-color: #000;
+    }
+    /* Tablet Nav Lists */
+    nav li {
+        display: inline-block;
+        color: #ffffff;
+    }
+    /* Tablet Nav List hyperlinks */
+    nav li a {
+        width: 200px;
+        background-color: #732C03;
+        color: #F2CA99;
+    }
+     /* Tablet */
+    nav li a:hover {
+        color:#000;
+        background-color: #F2CA99;
+    }
+    /* Tablet lower columns - 3 column layout */
+    #lower {
+        width: 99%;
+        display: flex;
+    }
+    /* Tablet H3 a different size */
+    h3 {
+        font-size: 16px;
+    }
+    #container {
+        background-color:#BF7330;
+    }
+    .col {
+            padding: 10px 10px;
+            margin: 10px 10px;
+            border: 2px solid #000000;
+            width: 33.33%;
+            border-radius: 30px;  
+        }
+    }
+    /* Tablet Nav headers H1 H2 H3 */
+    h1, h2, h3 {
+        text-align: center;
+        padding: 5px;
+    }
+    /* Tablet  Hyperlinks */
+    a {
+    color:#ffffff;
+    }
+    a:hover {
+        color:#F2CA99;
+    }
+    /* Tablet  Nav headers H1 only */
+    header h1 {
+        font-size: 35px;
+        color:#732C03;
+    }
+    /* Tablet  Nav headers H2 only */
+    h2 {
+    font-size: 30px;
+    color:#000000;
+    }
+    /* Tablet t Nav headers H3 only */
+    h3 {
+    font-size: 25px;
+    color:#261308;
+    }
+    /* Tablet */
+    main img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+        border: #F29E6D 6px solid;
+        }
+    /* Tablet Settings */
+    .button {
+        display:block;
+        background-color: #F29E6D;
+        padding: 10px;
+        width: 140px;
+        height: 60px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        line-height: 17px;
+        margin: 10px auto;
+        border-radius: 10px;
+        margin: auto;
+        }
+        /* Tablet Settings */
+        .button:hover {
+        color: #f26d6d;
+        background-color: #ffee00;
+        }
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            }
+
+    
+
+
+
+
+
+/* MEDIA Desktop PCs CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
+@media (min-width: 1024px) {
+
+    body {
+        background-color: #000000;
+    }
+    nav {
+        display: block;
+        background-color: #732C03;
+    }
+    /*  Desktop Nav Lists */
+    nav li {
+        display: inline-block;
+        padding: 2px;
+    }
+    /* Desktop Nav LIST Hyperlinks */
+    nav li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        color: #0d6102;
+        background-color: #F2CA99;
+        text-align: center;
+        margin: 5px 0;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    /* Desktop Nav LIST Hyperlink Hover color */
+    nav li a:hover {
+        color: #ff0000;
+        background-color: #ffee00;
+    }
+    /* Desktop PC Bottom navigation hyperlink color and box color */
+    nav2 li a {
+        background-color: #732C03;
+        color: white;
+    }
+    /* Desktop PC Bottom Navigation hyperlink hover color */
+    nav2 li a:hover {
+        color: #ff0000;
+        background-color: #ffee00;
+    }
+    /* Desktop lower three columns */
+    #lower {
+        margin: 10px auto;
+        display: flex;
+        width: 90%;
+    }
+    .container {
+        display: flex;
+        background-color: #000;
+    }
+    /* Desktop  Hyperlinks */
+    a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size:large;
+    }
+    /* Desktop  Nav headers H1 H2 H3 */
+    h1, h2, h3 {
+        text-align: center;
+        padding: 5px;
+    }
+    /* Desktop  Nav headers H1 only */
+    header h1 {
+        font-size: 35px;
+        color:#732C03;
+    }
+    /* Desktop  Nav headers H2 only */
+    h2 {
+    font-size: 30px;
+    color:#F2CA99;
+    }
+    /* Desktop t Nav headers H3 only */
+    h3 {
+    font-size: 25px;
+    color:#261308;
+    }
+    /* Desktop PC Settings */
+    .col {
+    border: 2px solid black;
+    margin: 12px;
+    padding: 5px 10px;
+    border-radius: 60px;
+    width: 33.33%;
+    }
+    /* Desktop PC Settings */
+    .col img {
+    border-radius: 60px;
+    padding: 2px;
+    border: 3px solid  #F2856D;
+    border-color: #F29E6D;
+    width: 85%;
+    margin: 10px auto;
+    }
+    .column2 {
+        text-align: center;
+    }
+    /* Desktop PC Settings */
+    img {
+    border-radius: 600px;
+    }
+    /* Desktop PC Settings */
+    footer {
+    padding: 40px 0;
+    text-align: center;
+    }
+    /* Desktop PC Settings */
+    hr {
+    width: 90%;
+    height: 2px;
+    }
+    /* Desktop PC Settings */
+    .button {
+    display:block;
+    background-color: #F29E6D;
+    padding: 8px;
+    width: 150px;
+    height: 60px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    margin: 10px auto;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    /* Desktop PC Settings */
+    .button:hover {
+    color: #f26d6d;
+    background-color: #ffee00;
+    }
+    /* Desktop PC Settings */
+    main {
+    padding: 20px;
+    margin: 5px 0;
+    }
+    /* Desktop PC */
+    p {
+    font-size: 24px;
+    margin: 10px auto;
+    text-align: center;
+    }
+    /* Desktop PC */
+    main img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border: #F29E6D 6px solid;
+    }
+}
