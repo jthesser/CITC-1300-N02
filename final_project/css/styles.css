@@ -2,10 +2,12 @@
 img {
     display: block;
     margin: 0 auto;
-    width: 95%;
-    border: #F29E6D 4px solid;
+    width: 90%;
+    max-width: 70%;
+    max-height: ;
+    height: auto;
+    border: #836554 4px solid;
     }
-/* Global Body */
 /* Global INTRO VIDEO - OCEAN2160.mp4 */
 video {
     width: 100%;
@@ -15,12 +17,11 @@ video {
 /* Global Container */
 #container {
     display: flex;
-    padding: 10px;
-    background-color:#ff0000;
+    padding: 5px;
 }
 #lower {
     padding: 10px;
-    width: 98%;
+    width: 100%;
 }
 #column1 {
     flex: 1;
@@ -57,8 +58,8 @@ video {
 }
 #top {
     flex: 1;
-    color:#eeff00;
-    background-color: #ffffff;
+    color:#ff00aa;
+    background-color: #ff00d4;
     padding: 10px;
     border: 1px solid #000000;
     text-align: center;
@@ -70,14 +71,13 @@ video {
     padding: 10px;
     border: 1px solid #000000;
     text-align: center;
-    background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/CatoosaAdventure.jpg);
     background-size: contain;
 }
 main img {
     margin: auto;
-    width: 40%;
+    width: 60%;
     height: auto;
-    border-radius: 40px;
+    border-radius: 2px;
 }
 /* Global  Headings H1 H2 H3 */
 h1,h2,h3 {
@@ -105,7 +105,7 @@ a {
 }
 /* Global  Hyperlink colors */
 a:hover {
-    color: red;
+    color: rgb(0, 4, 255);
     text-decoration: none;
 }
 footer {
@@ -119,16 +119,19 @@ footer {
 nav {
     display: flex;
     margin: 20% 1;
+    text-align: center;
 }
 /* Mobile Nav UL */
 nav ul {
     list-style: none;
     padding: 1;
     margin: auto;
+    text-align: center;
 }
 /* Mobile Nav LIST */
 nav li {
     display: inline-block;
+    text-align: center;
 }
 /* Mobile Nav LIST Hyperlinks */
 nav li a {
@@ -146,8 +149,8 @@ nav li a {
 }
 /* Mobile Nav LIST Hyperlink Hover color */
 nav li a:hover {
-    color: #ff0000;
-    background-color: #ffee00;
+    color: #000000;
+    background-color: #ffffff;
 }
 .button {
     display: block;
@@ -170,9 +173,12 @@ hr {
 
 
 
+
+
+
+
 /* MEDIA Desktop PCs CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
 @media (min-width: 1024px) {
-    
     body {
         background-color: #000000;
     }
@@ -180,68 +186,69 @@ hr {
    #lower {
     margin: 10px auto;
     display: flex;
-    width: 90%;
+    width: 95%;
+    padding: 1px auto;
     }
     .container {
     display: flex;
     background-color: #000;
     }
     #column1 {
-        flex: 1;
-        color:#ff0000;
-        background-color: #0d6102;
-        border: 1px solid #a76565;
-        width: 33.33%;
-        margin: 10px;
-        padding: 10px 10px;
-        border-radius: 30px;
-        text-align: center;
+    display: flex;
+    background-color: #e6adee;
+    width: 33.33%;
+    height: auto;
+    border: 10px solid #000;
     }
     #column2 {
-        flex: 1;
-        color:#ffffff;
-        background-color: #3f613a;
-        padding: 10px;
-        border: 1px solid #a76565;
-        width: 33.33%;
-        margin: 10px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column3 {
-        flex: 1;
-        color:#b31791;
-        background-color: #0d6102;
-        padding: 10px;
-        border: 1px solid #a76565;
-        width: 33.33%;
-        margin: 10px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    .column1 {
-    display: flex;
-    background-color: #00f7ff;
-    width: 99%;
-    }
-    .column2 {
     display: flex;
     background-color: #00ff40;
-    width: 99%;
+    width: 33.33%;
+    height: auto;
+    border: 10px solid #000;
     }
-    .column3 {
+    #column3 {
     display: flex;
     background-color: #ffa600;
-    width: 99%;
+    padding: 10px 10px;
+    width: 33.33%;
+    height: auto;
+    border: 10px solid #000;
+    }
+    #top {
+        background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/TravelingLoveRamTough.jpg);
+        background-attachment: scroll;
+        width:100%;
+        }
     }
     .lower {
         display: flex;
         background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/TravelingLoveRamTough.jpg);
+        background-size: cover;
+        background-attachment: scroll;
+        background-origin: content-box;
+        background-repeat: no-repeat;
+        width:99%;
+        }
+    #welcome {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #000000;
+        text-align: center;
+        background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/CatoosaAdventure.jpg);
+        width="100%"
+        max-width: 100%;
+        background-origin: content-box;
         background-size: contain;
         background-repeat: no-repeat;
-        background-attachment: scroll;
-        width:100%;
-        }
-    .top {
-        background-color: #62a578;
+
+        width: 99%;
+    }
+    main img {
+        margin: auto; 0;
+        width: 20%;
+        border-radius: 200px;
+        border-color:#9e6a6a
+    
+        
     }
