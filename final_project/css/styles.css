@@ -30,6 +30,12 @@ nav li a:hover {
     color: #000000;
     background-color: #ffffff;
 }
+ul {
+    padding: 5px;
+}
+li {
+    padding: 5px;
+}
 main img {
     border: 1px solid #9e6a6a;
     width: 70%;
@@ -274,7 +280,7 @@ hr {
         display: block;
         background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/TravelingLoveRamTough.jpg);
         background-size: cover;
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-origin: content-box;
         background-repeat: no-repeat;
         width:99%;
@@ -289,8 +295,9 @@ hr {
         background-origin: content-box;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-left: auto;
-        margin-right: auto;
+        background-attachment: scroll;
+        margin: 5px auto;
+        padding: 1px;
         border-radius: 0%;
     }
     #column1 {
@@ -426,7 +433,6 @@ nav li {
 
 
 
-
 /* MEDIA Desktop PCs CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
 @media (min-width: 1024px) {
     nav {
@@ -463,6 +469,7 @@ nav li {
         padding-top: 10px;
         padding-bottom: 40px;
         margin: auto;
+        background-attachment: fixed;
     }
     #column1 {
         display: inline-block;
