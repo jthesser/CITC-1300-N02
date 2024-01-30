@@ -12,7 +12,7 @@ nav ul {
 }
 /* Mobile Nav LIST */
 nav li {
-    display:block;
+    display:inline-block;
 }
 /* Mobile Nav LIST Hyperlinks */
 nav li a {
@@ -31,7 +31,7 @@ nav li a:hover {
     background-color: #ffffff;
 }
 main img {
-    border: 14px solid #9e6a6a;
+    border: 1px solid #9e6a6a;
     width: 70%;
     height: 70%;
 }
@@ -89,6 +89,66 @@ video {
     text-align: center;
 }
 #column3 {
+    color:#ff0000;
+    background-color: #854158;
+    border: 10px solid #9e6a6a;
+    width:90%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column4 {
+    color:#ff0000;
+    background-color: #CFC1D6;
+    border: 10px solid #9e6a6a;
+    width:90%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column5 {
+    color:#ff0000;
+    background-color: #6696E0;
+    border: 10px solid #9e6a6a;
+    width:90%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column6 {
+    color:#ff0000;
+    background-color: #854158;
+    border: 10px solid #9e6a6a;
+    width:90%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column7 {
+    color:#ff0000;
+    background-color: #CFC1D6;
+    border: 10px solid #9e6a6a;
+    width:90%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column8 {
+    color:#ff0000;
+    background-color: #6696E0;
+    border: 10px solid #9e6a6a;
+    width:90%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column9 {
     color:#ff0000;
     background-color: #854158;
     border: 10px solid #9e6a6a;
@@ -266,6 +326,72 @@ hr {
         border-radius: 30px;
         text-align: center;
 }
+#column4 {
+    display: block;
+    color:#ff0000;
+    background-color: #CFC1D6;
+    border: 10px solid #9e6a6a;
+    width:80%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column5 {
+    display: block;
+    color:#ff0000;
+    background-color: #6696E0;
+    border: 10px solid #9e6a6a;
+    width:80%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column6 {
+    display: block;
+    color:#ff0000;
+    background-color: #854158;
+    border: 10px solid #9e6a6a;
+    width:80%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column7 {
+    display: block;
+    color:#ff0000;
+    background-color: #CFC1D6;
+    border: 10px solid #9e6a6a;
+    width:80%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column8 {
+    display: block;
+    color:#ff0000;
+    background-color: #6696E0;
+    border: 10px solid #9e6a6a;
+    width:80%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#column9 {
+    display: block;
+    color:#ff0000;
+    background-color: #854158;
+    border: 10px solid #9e6a6a;
+    width:80%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
     main {
         padding: 10px;
         margin: 10px 0;
@@ -277,6 +403,14 @@ hr {
         height: 35%;
         border-radius: 20px;
         }
+        img {
+            display: inline-block;
+            margin: 0 auto;
+            width: auto;
+            height: auto;
+            max-width: 90%;
+            border: 5px solid #000000;
+            }
 nav {
     display:inline-block;
     background-color: #000000;
@@ -334,7 +468,7 @@ nav li {
         display: inline-block;
         color:#ff0000;
         background-color: #CFC1D6;
-        border: 10px solid #9e6a6a;
+        border: 5px solid #9e6a6a;
         width:25%;
         margin: 5px auto;
         padding: 13px;
@@ -345,7 +479,7 @@ nav li {
         display: inline-block;
         color:#ff0000;
         background-color: #6696E0;
-        border: 10px solid #9e6a6a;
+        border: 5px solid #9e6a6a;
         width:25%;
         margin: 5px auto;
         padding: 13px;
@@ -356,10 +490,76 @@ nav li {
         display: inline-block;
         color:#ff0000;
         background-color: #854158;
-        border: 10px solid #9e6a6a;
+        border: 5px solid #9e6a6a;
         width:25%;
         margin: 5px auto;
         padding: 13px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #column4 {
+        display: inline-block;
+        color:#ff0000;
+        background-color: #6696E0;
+        border: 5px solid #9e6a6a;
+        width:25%;
+        margin: 5px auto;
+        padding: 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #column5 {
+        display: inline-block;
+        color:#ff0000;
+        background-color: #6696E0;
+        border: 5px solid #9e6a6a;
+        width:25%;
+        margin: 5px auto;
+        padding: 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #column6 {
+        display: inline-block;
+        color:#ff0000;
+        background-color: #6696E0;
+        border: 5px solid #9e6a6a;
+        width:25%;
+        margin: 5px auto;
+        padding: 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #column7 {
+        display: inline-block;
+        color:#ff0000;
+        background-color: #854158;
+        border: 5px solid #9e6a6a;
+        width:25%;
+        margin: 5px auto;
+        padding: 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #column8 {
+        display: inline-block;
+        color:#ff0000;
+        background-color: #6696E0;
+        border: 5px solid #9e6a6a;
+        width:25%;
+        margin: 5px auto;
+        padding: 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #column9 {
+        display: inline-block;
+        color:#ff0000;
+        background-color: #CFC1D6;
+        border: 5px solid #9e6a6a;
+        width:25%;
+        margin: 5px auto;
+        padding: 10px;
         border-radius: 30px;
         text-align: center;
     }
@@ -377,4 +577,14 @@ nav li {
         color: rgb(255, 0, 0);
         text-decoration: none;
     }
+    main img {
+        border: 8px solid #9e6a6a;
+        width: 40%;
+        height: 40%;
+    }
+    img {
+        border: 5px solid #ff0000;
+        width: 99%;
+        height: 99%;
+        }
 }
