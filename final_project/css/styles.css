@@ -1,53 +1,121 @@
-/* Global Styles */
+/* Global Mobile Styles */
+main {
+    margin-left: auto;  
+    margin-right: auto;
+    width: 95%;
+    height: 95%;
+    background-color: #000000;
+}
+/* Global Mobile Styles */
+main > .welcome {
+    margin: auto;
+    padding: 1px;
+    height: 95%;
+    width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Global Mobile Styles */
+main img {
+    border: 10px solid #9e6a6a;
+    margin: 2px;
+    border-radius: 90px;
+    width: 90%;
+    height: 50%;
+}
+/* Global Mobile Styles */
+.container {
+    display: block;
+    padding: 1px;
+    height: 95%;
+    width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Global Mobile Styles */
+.col {
+    border: 0px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    display: block;
+    width:98%;
+    height: 95%;
+}
+/* Global Mobile Styles */
+.top {
+    display: block;
+    color:#000000;
+    background-color: #000000;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+/* Global Mobile Styles */
+body {
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95%;
+    width: 95%;
+}
+/* Global Mobile Styles */
 nav {
     background-color: #000000;
     padding: 1px 0;
 }
-/* Mobile Nav UL */
+/* Global Mobile Styles */
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
     background-color: #000000;
 }
-/* Mobile Nav LIST */
+/* Global Mobile Styles */
 nav li {
-    display:inline-block;
+    display:block;
 }
-/* Mobile Nav LIST Hyperlinks */
+/* Global Mobile Styles */
 nav li a {
-    height: 10px;
-    line-height: 10px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
     color: #ffffff;
     background-color: #000000;
     text-align: center;
     margin: 5px 0;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
 }
-/* Mobile Nav LIST Hyperlink Hover color */
+/* Global Mobile Styles */
 nav li a:hover {
     color: #000000;
     background-color: #ffffff;
 }
+/* Global Mobile Styles */
 ul {
     padding: 5px;
+    text-align: left;
 }
+/* Global Mobile Styles */
 li {
     padding: 5px;
 }
-main img {
-    border: 1px solid #9e6a6a;
-    width: 70%;
-    height: 70%;
-}
+/* Global Mobile Styles */
 img {
     display: inline-block;
-    margin: 0 auto;
-    width: auto;
-    height: auto;
-    max-width: 90%;
-    border: 5px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95%;
+    width: 95%;
     }
 /* Global INTRO VIDEO - OCEAN2160.mp4 */
 video {
@@ -60,143 +128,139 @@ video {
     border: 0px solid #000000;
     border-radius: 0%;
 }
-/* Global Container */
+/* Global Mobile Styles */
 #container {
     display: block;
-    padding: 1px;
-    height: 100%;
+    padding: 1px 2px;
+    height: 95%;
+    width: 95%;
     border: 10px solid #9e6a6a;
     margin-left:auto;
     margin-right:auto;
 }
-#lower {
-    padding: 1px;
-    padding-bottom: 20px;
-    margin: auto;
+/* Global Mobile Styles */
+#welcome {
+    padding: 2px;
+    text-align: center;
+    background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/CatoosaAdventure2.jpg);
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95%;
+    width: 95%;
 }
+/* Global Mobile Styles */
 #column1 {
-    color:#ff0000;
+    color:#000000;
     background-color: #CFC1D6;
     border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
+    height: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
     border-radius: 30px;
     text-align: center;
 }
+/* Global Mobile Styles */
 #column2 {
     color:#ff0000;
     background-color: #6696E0;
     border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
+    height: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
     border-radius: 30px;
     text-align: center;
 }
+/* Global Mobile Styles */
 #column3 {
     color:#ff0000;
     background-color: #854158;
     border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
+    height: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 0;
     border-radius: 30px;
     text-align: center;
 }
+/* Global Mobile Styles */
 #column4 {
     color:#ff0000;
     background-color: #CFC1D6;
     border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
+    height: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 0;
     border-radius: 30px;
     text-align: center;
 }
+/* Global Mobile Styles */
 #column5 {
     color:#ff0000;
     background-color: #6696E0;
     border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
+    height: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 0;
     border-radius: 30px;
     text-align: center;
 }
+/* Global Mobile Styles */
 #column6 {
     color:#ff0000;
     background-color: #854158;
     border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#column7 {
-    color:#ff0000;
-    background-color: #CFC1D6;
-    border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#column8 {
-    color:#ff0000;
-    background-color: #6696E0;
-    border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#column9 {
-    color:#ff0000;
-    background-color: #854158;
-    border: 10px solid #9e6a6a;
-    width:90%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#top {
-    display: block;
-    color:#ff00aa;
-    background-color: #000000;
-    border: 1px solid #000000;
-    text-align: center;
-    width: 100%;
-}
-#welcome {
-    padding: 1px;
-    border: 1px solid #000000;
-    text-align: center;
-    background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/CatoosaAdventure2.jpg);
-    background-origin: content-box;
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 95%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 0;
+    border-radius: 30px;
+    text-align: center;
 }
-body {
+/* Global Mobile Styles */
+#top {
+    display: block;
+    color:#000000;
     background-color: #000000;
-    width: auto;
-}
-main {
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #000;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 95%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
 }
 /* Global  Headings H1 H2 H3 */
 h1,h2,h3 {
     text-align: center;
-      }
+}
+/* Global Mobile Styles */
 h1 {
     color:#ffffff;
     color:#ffffff;
@@ -204,375 +268,661 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
-
+/* Global Mobile Styles */
 h2 {
     color:#ffffff;
 }
+/* Global Mobile Styles */
 h3 {
     color:#ffffff;
 }
+/* Global Mobile Styles */
 p {
     color:#ffffff;
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
-    padding: 5px;
 }
+/* Global Mobile Styles */
 a {
     color:#000000;
     padding: 2px;
     text-align: center;
     text-decoration: none;
 }
+/* Global Mobile Styles */
 a:hover {
     color: rgb(255, 0, 0);
     text-decoration: none;
 }
+/* Global Mobile Styles */
 footer {
     padding: 40px 0;
     text-align: center;
     color: #ffffff;
+    font-size: 12px;
 }
+/* Global Mobile Styles */
 .button {
     display: block;
     margin: 5px auto;
     text-align: center;
     background-color: rgb(234, 132, 38);
-    width: 125px;
-    height: 80px;
-    line-height: 20px;
+    width: 75%;
+    line-height: 40px;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 20px;
     font-weight: bold;
-    font-size: larger;
+    font-size: x-large;
 }
+/* Global Mobile Styles */
 hr {
-    width: 100%;
+    width: 95%;
     height: 2px;
 }
 
 
-/* MEDIA TABLETS CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
+
+
+
+
+
+/* MEDIA Tablet Size CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
 @media (min-width: 768px) {
-    body {
+
+    main {
         background-color: #000000;
     }
-/* TABLETS lower three columns */
+    /* MEDIA Tablet Size 786px */
+    main img {
+        border: 20px solid #9e6a6a;
+        margin: 2px;
+        border-radius: 90px;
+        width: 35%;
+        height: 35%;
+    }
+    /* MEDIA Tablet Size 786px */
     .container {
-    background-size: cover;
-    width: 100%;
-    height: 100%;
         display: block;
-        padding: 8px;
+        padding: 1px;
+        height: 95%;
+        width: 95%;
         margin-left:auto;
         margin-right:auto;
     }
-    #top {
-        background-color: #000000;
-        background-size: cover;
-        background-position-x: left;
-        background-attachment: fixed;
-        background-origin: content-box;
-        width:100%;
-        }
+    /* MEDIA Tablet Size 786px */
+    .col {
+        display: flex;
+        border: 0px solid black;
+        margin: 0 auto;
+        padding: 10px 10px;
+        width:98%;
+        height: 95%;
     }
-    .lower {
+    /* MEDIA Tablet Size 786px */
+    .welcome {
+    display: flex;
+}
+/* MEDIA Tablet Size 786px */
+    .top {
         display: block;
-        background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/TravelingLoveRamTough.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        background-origin: content-box;
-        background-repeat: no-repeat;
-        width:99%;
-        margin: 5px auto;
-        padding: 1px;
-        }
-    #welcome {
-        padding: 10px;
+        color:#000000;
+        background-color: #000000;
         border: 1px solid #000000;
+        text-align: center;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding: 10px 10px;
+    }
+    /* MEDIA Tablet Size 786px */
+    body {
+        background-color: #000000;
+        margin-left: auto;
+        margin-right: auto;
+        height: 95%;
+        width: 95%;
+    }
+    /* MEDIA Tablet Size 786px */
+    nav {
+        background-color: #000000;
+        padding: 1px 0;
+    }
+    /* MEDIA Tablet Size 786px */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+    }
+    /* MEDIA Tablet Size 786px */
+    nav li {
+        display:block;
+    }
+/* MEDIA Tablet Size 786px */
+    nav li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        color: #ffffff;
+        background-color: #000000;
+        text-align: center;
+        margin: 5px 0;
+        font-size: 20px;
+        text-decoration: none;
+    }
+/* MEDIA Tablet Size 786px */
+    nav li a:hover {
+        color: #000000;
+        background-color: #ffffff;
+    }
+    ul {
+        padding: 5px;
+        text-align: left;
+    }
+    li {
+        padding: 5px;
+    }
+    img {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 95%;
+        width: 95%;
+        }
+/* MEDIA Tablet Size 786px */
+    video {
+        display:block;
+        width: 95%;
+        height: 100px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0px solid #000000;
+        border-radius: 0%;
+    }
+/* MEDIA Tablet Size 786px */
+    #container {
+        display: block;
+        padding: 1px 2px;
+        height: 95%;
+        width: 95%;
+        border: 10px solid #9e6a6a;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    /* MEDIA Tablet Size 786px */
+    #welcome {
+        padding: 2px;
         text-align: center;
         background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/CatoosaAdventure2.jpg);
         background-origin: content-box;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        margin: 5px auto;
-        padding: 1px;
-        border-radius: 0%;
-    }
-    #column1 {
-        display: block;
-        color:#ff0000;
-        background-color: #CFC1D6;
-        border: 10px solid #9e6a6a;
-        width:80%;
-        margin: 5px auto;
-        padding: 10px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column2 {
-        display: block;
-        color:#ff0000;
-        background-color: #6696E0;
-        border: 10px solid #9e6a6a;
-        width:80%;
-        margin: 5px auto;
-        padding: 10px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column3 {
-        display: block;
-        color:#ff0000;
-        background-color: #854158;
-        border: 10px solid #9e6a6a;
-        width:80%;
-        margin: 5px auto;
-        padding: 10px;
-        border-radius: 30px;
-        text-align: center;
-}
-#column4 {
-    display: block;
-    color:#ff0000;
-    background-color: #CFC1D6;
-    border: 10px solid #9e6a6a;
-    width:80%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#column5 {
-    display: block;
-    color:#ff0000;
-    background-color: #6696E0;
-    border: 10px solid #9e6a6a;
-    width:80%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#column6 {
-    display: block;
-    color:#ff0000;
-    background-color: #854158;
-    border: 10px solid #9e6a6a;
-    width:80%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#column7 {
-    display: block;
-    color:#ff0000;
-    background-color: #CFC1D6;
-    border: 10px solid #9e6a6a;
-    width:80%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#column8 {
-    display: block;
-    color:#ff0000;
-    background-color: #6696E0;
-    border: 10px solid #9e6a6a;
-    width:80%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-#column9 {
-    display: block;
-    color:#ff0000;
-    background-color: #854158;
-    border: 10px solid #9e6a6a;
-    width:80%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-}
-    main {
-        padding: 10px;
-        margin: 10px 0;
-        background-color: #000;
-    }
-    main img {
-        margin: auto;
-        width: 35%;
-        height: 35%;
-        border-radius: 20px;
-        }
-        img {
-            display: inline-block;
-            margin: 0 auto;
-            width: auto;
-            height: auto;
-            max-width: 90%;
-            border: 5px solid #000000;
-            }
-nav {
-    display:inline-block;
-    background-color: #000000;
-}
-nav ul {
-    display:inline-block;
-    background-color: #000000;
-}
-nav li {
-    display: inline-block;
-    background-color: #000000;
-}
-
-
-
-/* MEDIA Desktop PCs CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 1024px */
-@media (min-width: 1024px) {
-    nav {
-        display:inline-block;
-        margin: auto;
-        background-color: #000000;
-        font-size: 48px;
-    }
-    nav ul {
-        display:inline-block;
-        background-color: #000000;
-    }
-    nav li {
-        display: inline-block;
-        background-color: #000000;
-        font-size: 48px;
-    }
-    #welcome {
-        padding: 10px;
-        text-align: center;
-        border: 1px solid #000000;
-        background-origin: content-box;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         margin-left: auto;
         margin-right: auto;
+        height: 95%;
+        width: 95%;
+    }
+    /* MEDIA Tablet Size 786px */
+    #lower {
+        display: flex;
+        margin: 10px auto;
+        width: 95%;
+    }
+    /* MEDIA Tablet Size 786px */
+    #column1 {
+        display: flex;
+        color:#000000;
+        background-color: #CFC1D6;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 1px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* MEDIA Tablet Size 786px */
+    #column2 {
+        display: flex;
+        color:#ff0000;
+        background-color: #6696E0;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 1px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* MEDIA Tablet Size 786px */
+    #column3 {
+        color:#ff0000;
+        display: flex;
+        background-color: #854158;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* MEDIA Tablet Size 786px */
+    #column4 {
+        color:#ff0000;
+        display: flex;
+        background-color: #CFC1D6;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* MEDIA Tablet Size 786px */
+    #column5 {
+        color:#ff0000;
+        display: flex;
+        background-color: #6696E0;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* MEDIA Tablet Size 786px */
+    #column6 {
+        display: flex;
+        color:#ff0000;
+        background-color: #854158;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* MEDIA Tablet Size 786px */
+    #top {
+        display: block;
+        color:#000000;
+        background-color: #000000;
+        border: 1px solid #000000;
+        text-align: center;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding: 10px 10px;
+    }
+/* MEDIA Tablet Size 786px */
+    h1,h2,h3 {
+        text-align: center;
+          }
+          /* MEDIA Tablet Size 786px */
+    h1 {
+        color:#ffffff;
+        color:#ffffff;
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 68px;
+    }
+    /* MEDIA Tablet Size 786px */
+    h2 {
+        color:#ffffff;
+        font-size: 48px;
+    }
+    /* MEDIA Tablet Size 786px */
+    h3 {
+        color:#ffffff;
+    }
+    /* MEDIA Tablet Size 786px */
+    p {
+        color:#ffffff;
+        font-size: 32px;
+        text-align: center;
+    }
+    /* MEDIA Tablet Size 786px */
+    a {
+        color:#000000;
+        padding: 2px;
+        text-align: center;
+        text-decoration: none;
+    }
+    /* MEDIA Tablet Size 786px */
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+    }
+    /* MEDIA Tablet Size 786px */
+    footer {
+        padding: 40px 0;
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
+    }
+    /* MEDIA Tablet Size 786px */
+    .button {
+        display: block;
+        margin: 5px auto;
+        text-align: center;
+        background-color: rgb(234, 132, 38);
+        width: 75%;
+        line-height: 40px;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    /* MEDIA Tablet Size 786px */
+    hr {
+        width: 95%;
+        height: 2px;
+    }
+}
+
+
+
+
+
+
+
+
+/* MEDIA Desktop Size CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
+@media (min-width: 1024px) {
+
+    main {
+        background-color: #000000;
+    }
+    main img {
+        border: 20px solid #9e6a6a;
+        margin: 2px;
+        border-radius: 90px;
+        width: 35%;
+        height: 35%;
+    }
+    .container {
+        display: block;
+        padding: 1px;
+        height: 95%;
+        width: 95%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .col {
+        display: flex;
+        border: 0px solid black;
+        margin: 0 auto;
+        padding: 10px 10px;
+        width:98%;
+        height: 95%;
+    }
+    .top {
+        display: block;
+        color:#000000;
+        background-color: #000000;
+        border: 1px solid #000000;
+        text-align: center;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding: 10px 10px;
+    }
+    body {
+        background-color: #000000;
+        margin-left: auto;
+        margin-right: auto;
+        height: 95%;
+        width: 95%;
+    }
+    nav {
+        background-color: #000000;
+        padding: 1px 0;
+    }
+    /* Mobile Nav UL */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+    }
+    /* Mobile Nav LIST */
+    nav li {
+        display:inline-block;
+    }
+    /* Mobile Nav LIST Hyperlinks */
+    nav li a {
+        display: inline-block;
+        height: 60px;
+        line-height: 60px;
+        color: #ffffff;
+        background-color: #000000;
+        text-align: center;
+        margin: 5px 0;
+        font-size: 32px;
+        text-decoration: none;
+    }
+    /* Mobile Nav LIST Hyperlink Hover color */
+    nav li a:hover {
+        color: #000000;
+        background-color: #ffffff;
+    }
+    ul {
+        padding: 5px;
+        text-align: left;
+    }
+    li {
+        padding: 5px;
+    }
+    img {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 95%;
+        width: 95%;
+        }
+    /* Global INTRO VIDEO - OCEAN2160.mp4 */
+    video {
+        display:block;
+        width: 95%;
+        height: 100px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0px solid #000000;
         border-radius: 0%;
+    }
+    /* Global Container */
+    #container {
+        display: block;
+        padding: 1px 2px;
+        height: 95%;
+        width: 95%;
+        border: 10px solid #9e6a6a;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #welcome {
+        padding: 2px;
+        text-align: center;
+        background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/CatoosaAdventure2.jpg);
+        background-origin: content-box;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        height: 95%;
+        width: 95%;
     }
     #lower {
         display: flex;
-        height:600px;
-        width: 99%;
-        padding: 10px;
-        padding-top: 10px;
-        padding-bottom: 40px;
-        margin: auto;
-        background-attachment: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        height: 95%;
+        width: 95%;
     }
     #column1 {
-        display: inline-block;
-        color:#ff0000;
+        display: flex;
+        color:#000000;
         background-color: #CFC1D6;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 13px;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 1px;
         border-radius: 30px;
         text-align: center;
     }
     #column2 {
-        display: inline-block;
+        display: flex;
         color:#ff0000;
         background-color: #6696E0;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 13px;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 1px;
         border-radius: 30px;
         text-align: center;
     }
     #column3 {
-        display: inline-block;
         color:#ff0000;
+        display: flex;
         background-color: #854158;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 13px;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
         border-radius: 30px;
         text-align: center;
     }
     #column4 {
-        display: inline-block;
         color:#ff0000;
-        background-color: #6696E0;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 10px;
+        display: flex;
+        background-color: #CFC1D6;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
         border-radius: 30px;
         text-align: center;
     }
     #column5 {
-        display: inline-block;
         color:#ff0000;
+        display: flex;
         background-color: #6696E0;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 10px;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
         border-radius: 30px;
         text-align: center;
     }
     #column6 {
-        display: inline-block;
-        color:#ff0000;
-        background-color: #6696E0;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 10px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column7 {
-        display: inline-block;
+        display: flex;
         color:#ff0000;
         background-color: #854158;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 10px;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
         border-radius: 30px;
         text-align: center;
     }
-    #column8 {
-        display: inline-block;
-        color:#ff0000;
-        background-color: #6696E0;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 10px;
-        border-radius: 30px;
+    #top {
+        display: block;
+        color:#000000;
+        background-color: #000000;
+        border: 1px solid #000000;
         text-align: center;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding: 10px 10px;
     }
-    #column9 {
-        display: inline-block;
-        color:#ff0000;
-        background-color: #CFC1D6;
-        border: 5px solid #9e6a6a;
-        width:25%;
-        margin: 5px auto;
-        padding: 10px;
-        border-radius: 30px;
+    /* Global  Headings H1 H2 H3 */
+    h1,h2,h3 {
         text-align: center;
+          }
+    h1 {
+        color:#ffffff;
+        color:#ffffff;
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 68px;
     }
+    
     h2 {
-        font-size: x-large;
-        padding: 16px;
+        color:#ffffff;
+        font-size: 48px;
+    }
+    h3 {
+        color:#ffffff;
+    }
+    p {
+        color:#ffffff;
+        font-size: 32px;
+        text-align: center;
     }
     a {
         color:#000000;
@@ -584,14 +934,27 @@ nav li {
         color: rgb(255, 0, 0);
         text-decoration: none;
     }
-    main img {
-        border: 8px solid #9e6a6a;
-        width: 40%;
-        height: 40%;
+    footer {
+        padding: 40px 0;
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
     }
-    img {
-        border: 5px solid #ff0000;
-        width: 99%;
-        height: 99%;
-        }
+    .button {
+        display: block;
+        margin: 5px auto;
+        text-align: center;
+        background-color: rgb(234, 132, 38);
+        width: 75%;
+        line-height: 40px;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    hr {
+        width: 95%;
+        height: 2px;
+    }
 }
