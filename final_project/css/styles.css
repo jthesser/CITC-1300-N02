@@ -352,7 +352,7 @@ hr {
     }
     /* MEDIA Tablet Size 786px */
     .col {
-        display: flex;
+        display: block;
         border: 0px solid black;
         margin: 0 auto;
         padding: 10px 10px;
@@ -683,10 +683,14 @@ hr {
     .col {
         display: flex;
         border: 0px solid black;
-        margin: 0 auto;
+        margin: auto;
         padding: 10px 10px;
         width:98%;
         height: 95%;
+    }
+    .lower {
+        display: flex;
+        border: 0px solid black;
     }
     .top {
         display: block;
@@ -701,6 +705,9 @@ hr {
         margin-top: 2px;
         margin-bottom: 10px;
         padding: 10px 10px;
+    }
+    .welcome {
+        margin: auto;
     }
     body {
         background-color: #000000;
@@ -789,24 +796,23 @@ hr {
         width: 95%;
     }
     #lower {
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        height: 95%;
-        width: 95%;
+        background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/TravelingLoveRamTough.jpg);
+        background-origin: content-box;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     #column1 {
         display: flex;
         color:#000000;
         background-color: #CFC1D6;
         border: 10px solid #9e6a6a;
-        height: 95%;
-        width: 95%;
+        height: 33%;
+        width: 33%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding: 1px 1px;
+        padding: 10px 10px;
         border-radius: 30px;
         text-align: center;
     }
@@ -815,13 +821,13 @@ hr {
         color:#ff0000;
         background-color: #6696E0;
         border: 10px solid #9e6a6a;
-        height: 95%;
-        width: 95%;
+        height: 33%;
+        width: 33%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding: 1px 1px;
+        padding: 10px 10px;
         border-radius: 30px;
         text-align: center;
     }
@@ -830,8 +836,8 @@ hr {
         display: flex;
         background-color: #854158;
         border: 10px solid #9e6a6a;
-        height: 95%;
-        width: 95%;
+        height: 33%;
+        width: 33%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
@@ -938,7 +944,7 @@ hr {
         padding: 40px 0;
         text-align: center;
         color: #ffffff;
-        font-size: 12px;
+        font-size: 24px;
     }
     .button {
         display: block;
