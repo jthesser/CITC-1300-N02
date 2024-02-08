@@ -5,6 +5,7 @@ main {
     width: 95%;
     height: 95%;
     background-color: #000000;
+    padding: 10px;
 }
 /* Global Mobile Styles */
 main > .welcome {
@@ -279,7 +280,7 @@ h3 {
 /* Global Mobile Styles */
 p {
     color:#ffffff;
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
 }
 /* Global Mobile Styles */
@@ -475,7 +476,7 @@ hr {
     }
     /* MEDIA Tablet Size 786px */
     #column1 {
-        display: flex;
+        display: block;
         color:#000000;
         background-color: #CFC1D6;
         border: 10px solid #9e6a6a;
@@ -491,7 +492,7 @@ hr {
     }
     /* MEDIA Tablet Size 786px */
     #column2 {
-        display: flex;
+        display: block;
         color:#ff0000;
         background-color: #6696E0;
         border: 10px solid #9e6a6a;
@@ -501,14 +502,14 @@ hr {
         margin-right: auto;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding: 1px 1px;
+        padding: 1px 0;
         border-radius: 30px;
         text-align: center;
     }
     /* MEDIA Tablet Size 786px */
     #column3 {
         color:#ff0000;
-        display: flex;
+        display: block;
         background-color: #854158;
         border: 10px solid #9e6a6a;
         height: 95%;
@@ -524,7 +525,7 @@ hr {
     /* MEDIA Tablet Size 786px */
     #column4 {
         color:#ff0000;
-        display: flex;
+        display: block;
         background-color: #CFC1D6;
         border: 10px solid #9e6a6a;
         height: 95%;
@@ -540,7 +541,7 @@ hr {
     /* MEDIA Tablet Size 786px */
     #column5 {
         color:#ff0000;
-        display: flex;
+        display: block;
         background-color: #6696E0;
         border: 10px solid #9e6a6a;
         height: 95%;
@@ -555,7 +556,7 @@ hr {
     }
     /* MEDIA Tablet Size 786px */
     #column6 {
-        display: flex;
+        display: block;
         color:#ff0000;
         background-color: #854158;
         border: 10px solid #9e6a6a;
@@ -658,309 +659,138 @@ hr {
 
 
 
-
 /* MEDIA Desktop Size CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
 @media (min-width: 1024px) {
 
     main {
         background-color: #000000;
     }
+
     main img {
         border: 20px solid #9e6a6a;
-        margin: 2px;
         border-radius: 90px;
-        width: 35%;
-        height: 35%;
-    }
-    .container {
         display: block;
-        padding: 1px;
-        height: 95%;
-        width: 95%;
-        margin-left:auto;
-        margin-right:auto;
+        margin: 0 auto;
+        width: 30%;
+        height: 30%;
     }
-    .col {
-        display: flex;
-        border: 0px solid black;
-        margin: auto;
-        padding: 10px 10px;
-        width:98%;
-        height: 95%;
-    }
-    .lower {
-        display: flex;
-        border: 0px solid black;
-    }
-    .top {
-        display: block;
-        color:#000000;
-        background-color: #000000;
-        border: 1px solid #000000;
-        text-align: center;
-        height: 95%;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2px;
-        margin-bottom: 10px;
-        padding: 10px 10px;
-    }
-    .welcome {
-        margin: auto;
-    }
+        /*  Desktop Body */
     body {
         background-color: #000000;
-        margin-left: auto;
-        margin-right: auto;
-        height: 95%;
-        width: 95%;
     }
+        /*  Desktop Navigation Menu */
     nav {
+        display: inline-block;
         background-color: #000000;
-        padding: 1px 0;
+        width: 100%;
+        margin: 0 auto;
     }
-    /* Mobile Nav UL */
-    nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        background-color: #000000;
-    }
-    /* Mobile Nav LIST */
+    /*  Desktop Nav Lists */
     nav li {
-        display:inline-block;
+        display: inline-block;
+        padding: 12px;
     }
-    /* Mobile Nav LIST Hyperlinks */
+    /* Desktop Nav LIST Hyperlinks */
     nav li a {
         display: inline-block;
-        height: 60px;
-        line-height: 60px;
+        height: 100px;
+        line-height: 100px;
         color: #ffffff;
         background-color: #000000;
         text-align: center;
-        margin: 5px 0;
-        font-size: 32px;
+        font-size: 64px;
         text-decoration: none;
+        padding: 12px;
     }
-    /* Mobile Nav LIST Hyperlink Hover color */
+    /* Desktop Nav LIST Hyperlink Hover color */
     nav li a:hover {
         color: #000000;
         background-color: #ffffff;
     }
-    ul {
-        padding: 5px;
-        text-align: left;
-    }
-    li {
-        padding: 5px;
-    }
-    img {
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 95%;
-        width: 95%;
+        /* Global INTRO VIDEO - OCEAN2160.mp4 */
+        video {
+            display:block;
+            width: 99%;
+            height: 200px;
+            object-fit: cover;
+            margin-left: auto;
+            margin-right: auto;
+            border: 0px solid #000000;
+            border-radius: 0%;
         }
-    /* Global INTRO VIDEO - OCEAN2160.mp4 */
-    video {
-        display:block;
-        width: 95%;
-        height: 100px;
-        object-fit: cover;
-        margin-left: auto;
-        margin-right: auto;
-        border: 0px solid #000000;
-        border-radius: 0%;
-    }
-    /* Global Container */
-    #container {
-        display: block;
-        padding: 1px 2px;
-        height: 95%;
-        width: 95%;
-        border: 10px solid #9e6a6a;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    #welcome {
-        padding: 2px;
-        text-align: center;
-        background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/CatoosaAdventure2.jpg);
-        background-origin: content-box;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-left: auto;
-        margin-right: auto;
-        height: 95%;
-        width: 95%;
-    }
-    #lower {
-        background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/TravelingLoveRamTough.jpg);
-        background-origin: content-box;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    #column1 {
-        display: flex;
-        color:#000000;
-        background-color: #CFC1D6;
-        border: 10px solid #9e6a6a;
-        height: 33%;
-        width: 33%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 10px 10px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column2 {
-        display: flex;
-        color:#ff0000;
-        background-color: #6696E0;
-        border: 10px solid #9e6a6a;
-        height: 33%;
-        width: 33%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 10px 10px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column3 {
-        color:#ff0000;
-        display: flex;
-        background-color: #854158;
-        border: 10px solid #9e6a6a;
-        height: 33%;
-        width: 33%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 1px 1px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column4 {
-        color:#ff0000;
-        display: flex;
-        background-color: #CFC1D6;
-        border: 10px solid #9e6a6a;
-        height: 95%;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 1px 0;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column5 {
-        color:#ff0000;
-        display: flex;
-        background-color: #6696E0;
-        border: 10px solid #9e6a6a;
-        height: 95%;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 1px 0;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #column6 {
-        display: flex;
-        color:#ff0000;
-        background-color: #854158;
-        border: 10px solid #9e6a6a;
-        height: 95%;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 1px 0;
-        border-radius: 30px;
-        text-align: center;
-    }
-    #top {
-        display: block;
-        color:#000000;
-        background-color: #000000;
-        border: 1px solid #000000;
-        text-align: center;
-        height: 95%;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2px;
-        margin-bottom: 10px;
-        padding: 10px 10px;
-    }
-    /* Global  Headings H1 H2 H3 */
-    h1,h2,h3 {
-        text-align: center;
-          }
-    h1 {
-        color:#ffffff;
-        color:#ffffff;
-        font-family: "Permanent Marker", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 68px;
-    }
-    
-    h2 {
-        color:#ffffff;
+        .button {
+            margin: 5px auto;
+            text-align: center;
+            background-color: rgb(234, 132, 38);
+            width: 75%;
+            line-height: 60px;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 48px;
+        }
+        header h1 {
+            font-size: 120px;
+        }
+        h2 {
+            font-size: 64px;
+        }
+        p {
+            font-size: 48px;
+            padding: 10px;
+        }
+        footer {
+            font-size: 22px;
+        }
+        #lower {
+            display: flex;
+            background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/Catoosa3.jpg);
+            background-origin: content-box;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            height: auto;
+        }
+        #lower2 {
+            display: flex;
+            background-image: url(https://jthesser.github.io/CITC-1300-N02/final_project/images/TravelingLoveRamTough.jpg);
+            background-origin: content-box;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            height: auto;
+        }
+        #column1 {
+            width: 25%
+        }
+        #column2 {
+            width: 25%
+        }
+        #column3 {
+            width: 25%
+        }
+        #column4 {
+            width: 25%
+        }
+        #column5 {
+            width: 25%
+        }
+        #column6 {
+            width: 25%
+        }
+        ul {
+            text-align: left;
+            font-size: 48px;
+            padding: 10px;
+        }
+        hr {
+            width: 100%;
+            height: 2px;
+        }
+        li {
+        margin: 10px 0;
         font-size: 48px;
-    }
-    h3 {
-        color:#ffffff;
-    }
-    p {
-        color:#ffffff;
-        font-size: 32px;
-        text-align: center;
-    }
-    a {
-        color:#000000;
-        padding: 2px;
-        text-align: center;
-        text-decoration: none;
-    }
-    a:hover {
-        color: rgb(255, 0, 0);
-        text-decoration: none;
-    }
-    footer {
-        padding: 40px 0;
-        text-align: center;
-        color: #ffffff;
-        font-size: 24px;
-    }
-    .button {
-        display: block;
-        margin: 5px auto;
-        text-align: center;
-        background-color: rgb(234, 132, 38);
-        width: 75%;
-        line-height: 40px;
-        text-decoration: none;
-        border: 2px solid black;
-        border-radius: 20px;
-        font-weight: bold;
-        font-size: x-large;
-    }
-    hr {
-        width: 95%;
-        height: 2px;
-    }
+        padding: 10px;
+        }
 }
