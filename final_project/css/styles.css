@@ -105,6 +105,7 @@ nav li a:hover {
 ul {
     padding: 5px;
     text-align: left;
+    font-size: 16px;
 }
 /* Global Mobile Styles */
 li {
@@ -139,6 +140,19 @@ video {
     margin-left:auto;
     margin-right:auto;
 }
+.iframe-container {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .iframe-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
 /* Global Mobile Styles */
 #welcome {
     padding: 2px;
@@ -153,9 +167,23 @@ video {
     width: 95%;
 }
 /* Global Mobile Styles */
+#resources {
+    color:#000000;
+    background-color: #2e9c3d;
+    border: 0px solid #9e6a6a;
+    height: 25%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 30px;
+    border-radius: 80px;
+    text-align: center;
+}
 #column1 {
     color:#000000;
-    background-color: #CFC1D6;
+    background-color: #155e12;
     border: 10px solid #9e6a6a;
     height: 95%;
     width: 95%;
@@ -300,7 +328,7 @@ footer {
     padding: 40px 0;
     text-align: center;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 16px;
 }
 /* Global Mobile Styles */
 .button {
@@ -474,11 +502,25 @@ hr {
         margin: 10px auto;
         width: 95%;
     }
+    #resources {
+        color:#000000;
+        background-color: #2e9c3d;
+        border: 0px solid #9e6a6a;
+        height: 25%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 30px;
+        border-radius: 80px;
+        text-align: center;
+    }
     /* MEDIA Tablet Size 786px */
     #column1 {
         display: block;
         color:#000000;
-        background-color: #CFC1D6;
+        background-color: #155e12;
         border: 10px solid #9e6a6a;
         height: 95%;
         width: 95%;
@@ -667,7 +709,7 @@ hr {
     }
 
     main img {
-        border: 20px solid #9e6a6a;
+        border: 14px solid #9e6a6a;
         border-radius: 90px;
         display: block;
         margin: 0 auto;
@@ -693,12 +735,12 @@ hr {
     /* Desktop Nav LIST Hyperlinks */
     nav li a {
         display: inline-block;
-        height: 100px;
-        line-height: 100px;
+        height: 50px;
+        line-height: 50px;
         color: #ffffff;
         background-color: #000000;
         text-align: center;
-        font-size: 64px;
+        font-size: 24px;
         text-decoration: none;
         padding: 12px;
     }
@@ -711,7 +753,7 @@ hr {
         video {
             display:block;
             width: 99%;
-            height: 200px;
+            height: 150px;
             object-fit: cover;
             margin-left: auto;
             margin-right: auto;
@@ -723,21 +765,24 @@ hr {
             text-align: center;
             background-color: rgb(234, 132, 38);
             width: 75%;
-            line-height: 60px;
+            line-height: 32px;
             text-decoration: none;
             border: 2px solid black;
             border-radius: 20px;
             font-weight: bold;
-            font-size: 48px;
+            font-size: 32px;
         }
         header h1 {
-            font-size: 120px;
+            font-size: 48px;
+        }
+        h1 {
+            font-size: 32px;
         }
         h2 {
-            font-size: 64px;
+            font-size: 32px;
         }
         p {
-            font-size: 48px;
+            font-size: 20px;
             padding: 10px;
         }
         footer {
@@ -761,36 +806,48 @@ hr {
             background-attachment: scroll;
             height: auto;
         }
+        #resources {
+            color:#000000;
+            background-color: #2e9c3d;
+            height: 10%;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 30px;
+            border-radius: 80px;
+        }
         #column1 {
-            width: 25%
+            width: 25%;
         }
         #column2 {
-            width: 25%
+            width: 25%;
         }
         #column3 {
-            width: 25%
+            width: 25%;
         }
         #column4 {
-            width: 25%
+            width: 25%;
+            background-color: #854158;
         }
         #column5 {
-            width: 25%
+            width: 25%;
         }
         #column6 {
-            width: 25%
+            width: 25%;
+            background-color: #155e12;
         }
         ul {
-            text-align: left;
-            font-size: 48px;
-            padding: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+        li {
+        margin: 10px 0;
+        font-size: 24px;
         }
         hr {
             width: 100%;
             height: 2px;
-        }
-        li {
-        margin: 10px 0;
-        font-size: 48px;
-        padding: 10px;
         }
 }
