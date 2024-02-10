@@ -272,7 +272,7 @@ video {
 /* Global Mobile Styles */
 #top {
     display: block;
-    color:#000000;
+    color:#343333;
     background-color: #000000;
     border: 1px solid #141414;
     text-align: center;
@@ -444,7 +444,7 @@ hr {
     .top {
         display: block;
         color:#ff0000;
-        background-color: #ff0000;
+        background-color: #1b1818;
         border: 1px solid #2f2a2a;
         text-align: center;
         height: 95%;
@@ -590,7 +590,7 @@ hr {
         font-size: 22px;
         text-align: center;
     }
-
+}
 
 /* MEDIA Desktop Size CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
 @media (min-width: 1024px) {
