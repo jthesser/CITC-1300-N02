@@ -170,14 +170,14 @@ video {
 #resources {
     color:#000000;
     background-color: #2e9c3d;
-    border: px solid #9e6a6a;
+    border: 0px solid #9e6a6a;
     height: 25%;
-    width: 50%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1px;
-    margin-bottom: 5px;
-    padding: 30px;
+    margin-bottom: 1px;
+    padding-left: 20px;
     border-radius: 10px;
     text-align: center;
 }
@@ -310,7 +310,7 @@ h3 {
 /* Global Mobile Styles */
 p {
     color:#ffffff;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     padding: 20px;
 }
@@ -320,7 +320,7 @@ a {
     padding: 2px;
     text-align: center;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 14px;
 }
 /* Global Mobile Styles */
 a:hover {
@@ -348,6 +348,17 @@ footer {
     font-weight: bold;
     font-size: 16px;
 }
+.button2 {
+    display: block;
+    margin: 5px auto;
+    background-color: #F2EC91;
+    line-height: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
 /* Global Mobile Styles */
 hr {
     width: 95%;
@@ -359,6 +370,227 @@ hr {
 
 
 
+
+
+/* MEDIA Tablet Size CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
+@media (min-width:768px) {
+
+    main {
+        background-color:  #A66F6A;
+    }
+
+    main img {
+        border: 14px solid  #260101;
+        border-radius: 30px;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+    }
+    video {
+        display:block;
+        width: 100%;
+        height: 60px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0px solid #000000;
+        border-radius: 30%;
+    }
+    body {
+        background-color:  #260101;
+    }
+    ul {
+        padding: 15px;
+        text-align: left;
+        font-size: 24px;
+    }
+    /* Global Mobile Styles */
+    li {
+        padding: 5px;
+        font-size: 24px;
+    }
+    nav {
+        background-color: #000000;
+        padding: 1px 0;
+    }
+    /* Global Mobile Styles */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: #260101;
+    }
+    /* Global Mobile Styles */
+    nav li {
+        display:inline-block;
+    }
+    /* Global Mobile Styles */
+    nav li a {
+        display: block;
+        height: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        background-color: #260101;
+        text-align: center;
+        margin: 10px 20px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    /* Global Mobile Styles */
+    nav li a:hover {
+        color: #000000;
+        background-color: #F2EC91;
+    }
+    .top {
+        display: block;
+        color:#ff0000;
+        background-color: #ff0000;
+        border: 1px solid #ff0000;
+        text-align: center;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding: 10px 10px;
+    }
+    #column1 {
+        color:#000000;
+        background-color: #403C01;
+        border: 10px solid #A66F6A;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 1px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* Global Mobile Styles */
+    #column2 {
+        color:#ff0000;
+        background-color: #6696E0;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 1px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* Global Mobile Styles */
+    #column3 {
+        color:#ff0000;
+        background-color: #854158;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* Global Mobile Styles */
+    #column4 {
+        color:#ff0000;
+        background-color: #155e12;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* Global Mobile Styles */
+    #column5 {
+        color:#ff0000;
+        background-color: #6696E0;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
+        border-radius: 30px;
+        text-align: center;
+    }
+    /* Global Mobile Styles */
+    #column6 {
+        color:#ff0000;
+        background-color: #854158;
+        border: 10px solid #9e6a6a;
+        height: 95%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1px 0;
+        border-radius: 30px;
+        text-align: center;
+    }
+    #resources {
+        color:#000000;
+        background-color: #A66F6A;
+        border: 0px solid #9e6a6a;
+        height: 25%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .button {
+        margin: 5px auto;
+        text-align: center;
+        background-color: #F2EC91;
+        width: 75%;
+        line-height: 32px;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .button2 {
+        margin: 5px auto;
+        text-align: center;
+        background-color: #F2EC91;
+        width: 80%;
+        line-height: 32px;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 24px;
+        padding: 10px;
+    }
+    p {
+        font-size: 22px;
+    }
+    a {
+        font-size: 22px;
+        text-align: center;
+    }
 
 
 /* MEDIA Desktop Size CSS CODING STARTS HERE - ANYTHING UNDER THIS MEDIA LINE WILL BE DISPLAYED ON DEVICES WITH A MINIMUM WIDTH RESOLUTION OF 786px */
@@ -387,10 +619,13 @@ hr {
         width: 100%;
         margin: 0 auto;
     }
+    nav ul {
+        background-color: #000000;
+    }
     /*  Desktop Nav Lists */
     nav li {
         display: inline-block;
-        padding: 12px;
+        padding: 5px;
     }
     /* Desktop Nav LIST Hyperlinks */
     nav li a {
@@ -400,9 +635,9 @@ hr {
         color: #ffffff;
         background-color: #000000;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
         text-decoration: none;
-        padding: 12px;
+        padding: 5px;
     }
     /* Desktop Nav LIST Hyperlink Hover color */
     nav li a:hover {
@@ -432,6 +667,18 @@ hr {
             font-weight: bold;
             font-size: 32px;
         }
+        .button2 {
+            margin: 5px auto;
+            text-align: center;
+            background-color: rgb(234, 132, 38);
+            width: 75%;
+            line-height: 32px;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 32px;
+        }
         header h1 {
             font-size: 48px;
         }
@@ -442,7 +689,7 @@ hr {
             font-size: 32px;
         }
         p {
-            font-size: 20px;
+            font-size: 24px;
             padding: 10px;
         }
         footer {
@@ -473,10 +720,11 @@ hr {
             width: 95%;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 5px;
-            margin-bottom: 5px;
+            margin-top: 1px;
+            margin-bottom: 1px;
             padding: 30px;
             border-radius: 80px;
+            text-align: center;
         }
         #column1 {
             width: 25%;
@@ -500,11 +748,12 @@ hr {
         }
         ul {
             text-align: center;
-            font-size: 16px;
+            font-size: 12px;
         }
         li {
         margin: 10px 0;
         font-size: 24px;
+        margin: auto;
         }
         hr {
             width: 100%;
